@@ -47,9 +47,9 @@ Rails.application.routes.draw do
 
   get("/roll/1/6", { :controller => "numbers", :action => "one_six" })
   get("/roll/2/6", { :controller => "numbers", :action => "two_six" })
-  # /roll/3/6
-  # /roll/4/6
-  # /roll/5/6
+  get("/roll/3/6", { :controller => "numbers", :action => "three_six" })
+  get("/roll/4/6", { :controller => "numbers", :action => "four_six" })
+  get("/roll/5/6", { :controller => "numbers", :action => "five_six" })
   # /roll/6/6
 
   # /roll/1/4
